@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .icn{
+            width: 60px; 
+            height: 60px; 
+            background-color: rgb(243, 192, 84); 
+            border-radius: 100%; 
+            text-align: center;
+            
+            
+        }
+        .link{
+            width: 10%;
+            height: 100%;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .main{
+            width: 100%;
+            display: flex;
+        }
+        .frame1{
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 9%;
+            
+        }
+        .cnt2{
+            width: 35%;
+            font-size: 100%;
+            font-family: 'Poppins', sans-serif;
+            position: relative;
+            
+        }
+        body{
+            background-image: url(bgrnd.png);
+            box-sizing: border-box;
+            width: 100vph;
+        }
+        @media only screen and (max-width: 1000px) {
+            .frame1 {
+                width: 80%;
+                margin-left: 5%;
+                flex-direction: column;
+                margin-bottom: 3%;
+                color: black;
+            }
+            .cnt2{
+                width: 70%;
+                align-items: center;
+            }
+           .icn{
+                margin-top: 50%;
+           }
+           .detail{
+                margin-left: -20%;
+           }
+
+        }
+        .detail{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 4%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="frame1">
+            <div class="imge">
+                <img src="selva.png" width="300vw" style="border-radius: 20px;">
+                <div class="detail">
+                    <div class="sub">  <a href="https://www.linkedin.com/in/info-selvakumaran/"><img src="li.png" width="50vw"></a></div>
+                    <div class="sub"> <a href="mailto: info.selvakumaran@gmail.com"><img src="mail.png" width="50vw"></a></div>
+                    <div class="sub"> <a href="https://github.com/SK-Nemo"><img src="git.png" width="50vw" style="border-radius: 100px;"></a></div>
+                 </div>
+            </div>
+            <div class="cnt2">
+                <h1>.I AM SELVAKUMARAN <div style="border: solid white 10px;"></div></h1><br>
+                <h2 style="text-align: center; margin-top: -3%;">ML Engineer at KCT</h2>
+                    <p style="font-size: 80%; margin-top: 4%;">
+                        As a passionate Quantum Computing enthusiast, 
+                        I am excited about its potential to revolutionize healthcare, finance, and transportation. 
+                        My expertise lies in Quantum AI, Machine Learning, Hardware, Data Analysis, and Computer Vision.
+                        Additionally, I am intrigued by Quantum Cryptography and Simulation, envisioning new possibilities in 
+                        communication and simulation technologies.
+                    </p>
+            </div>
+        </div>
+        <div class="link">
+            <a href="index.html"><div class="icn" style="margin-top: 15%;"><img src="home.png" style="height: 40px; margin-top: 10px;"></div></a>
+            <a href="skill.html"><div class="icn" style="margin-top: 15%;"><img src="user.png" style="height: 40px; margin-top: 10px;"></div></a>
+            </div>
+    </div>
+</body>
+</html>
